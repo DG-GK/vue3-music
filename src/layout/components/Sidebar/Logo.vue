@@ -1,7 +1,7 @@
 <template>
   <div class="logo">
     <router-link to="/">
-      <h2>网易云音乐</h2>
+      <h3>网易云音乐</h3>
     </router-link>
   </div>
 </template>
@@ -17,8 +17,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  h2 {
-    color: #ff3131;
+  background: #ff4040;
+  h3 {
+    color: #ffffff;
   }
 }
 </style>

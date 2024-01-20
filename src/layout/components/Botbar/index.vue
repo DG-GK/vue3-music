@@ -1,5 +1,5 @@
 <template>
-  <div class="Botbar">底部状态栏</div>
+  <div class="Botbar"></div>
 </template>
 
 <script setup>

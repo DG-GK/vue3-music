@@ -30,4 +30,6 @@ html,
     text-decoration: none;
   }
 }
+// 矢量图标
+@import url('./assets/icon/iconfont.css');
 </style>

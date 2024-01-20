@@ -37,7 +37,7 @@ import Botbar from "./components/Botbar/index.vue"
     .left {
       width: 215px;
       height: 100%;
-      background: #eeeeee;
+      background: #f8f8f8;
     }
     .right {
       flex: 1;
@@ -45,7 +45,7 @@ import Botbar from "./components/Botbar/index.vue"
       height: 100%;
       .top {
         height: 70px;
-        background: #dbdbdb;
+        background: #ff4040;
       }
       .main {
         height: calc(100% - 70px);

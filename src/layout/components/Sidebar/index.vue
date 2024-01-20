@@ -3,7 +3,7 @@
         <Logo></Logo>
         <el-scrollbar class="scrollbar">
             <div class="menu">
-                菜单
+                <menu-item v-for="item in fixedRoutes" :icon="item.icon" :path="item.path">{{ item.meta.title }}</menu-item>
             </div>
         </el-scrollbar>
     </div>
@@ -11,6 +11,9 @@
 
 <script setup>
 import Logo from "./Logo.vue"
+import MenuItem from "./MenuItem.vue"
+import {fixedRoutes} from "@/router/index.ts"
+console.log(fixedRoutes)
 </script>
 
 <style scoped lang="scss">
@@ -20,7 +23,7 @@ import Logo from "./Logo.vue"
     .scrollbar {
         height: calc(100% - 70px);
         .menu {
-            padding: 0 15px;
+            padding: 10px 15px;
         }
     }
 }

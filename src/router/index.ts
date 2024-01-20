@@ -1,7 +1,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import home from './modules/home.ts'
+import fixed from './modules/fixed.ts'
 
-export const fixedRoutes = home
+export const fixedRoutes = [...fixed]
 
 const router = createRouter({
     history: createWebHashHistory(),
